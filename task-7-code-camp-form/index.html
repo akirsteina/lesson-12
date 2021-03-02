@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="form-headings">
+        <h1>freeCodeCamp Survey Form</h1>
+        <h2>Thank you for taking the time to help us improve the platform</h2>
+    </div>
+
+    <div class="form-background">
+        <div class="form-wrapper">
+            <form action="" method="post">
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="name-input-field">Name</label>
+                    </div>
+                    <div class="lower-item">
+                        <input type="text" id="name-input-field" placeholder="Enter your name" name="name">
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="email-input-field">Email</label>
+                    </div>
+                    <div class="lower-item">
+                        <input type="text" id="email-input-field" placeholder="Enter your Email" name="email">
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="age-input-field">Age <span>(Optional)</span> </label>
+                    </div>
+                    <div class="lower-item">
+                        <input type="text" id="age-input-field" placeholder="Age" name="age">
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="role-select">Which option best describes your current role?</label>
+                    </div>
+                    <div class="lower-item">
+                        <select id="role-selector" name="role">
+                            <option value="">Select current role</option>
+                            <option value="1">Camp student</option>
+                            <option value="2">Camp teacher</option>
+                            <option value="3">Somebody else</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        Would you recommend freeCodeCamp to a friend?
+                    </div>
+                    <div class="lower-item">
+                        <div class="radio-item">
+                            <input type="radio" id="recommend-definitely" checked name="recommend" value="0">
+                            <label for="recommend-definitely">Definitely</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="recommend-maybe" name="recommend" value="1">
+                            <label for="recommend-maybe">maybe</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="recommend-not-sure" name="recommend" value="2">
+                            <label for="recommend-not-sure">Not sure</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="feature-selector">What is your favourite feature of freeCodeCamp?</label>
+                    </div>
+                    <div class="lower-item">
+                        <select id="feature-selector" name="feature">
+                            <option value="">Select an option</option>
+                            <option value="1">Coding</option>
+                            <option value="2">Communicating</option>
+                            <option value="3">Lunch breaks</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <div>What would you like to see improved? <span>(Check all that apply)</span></div>
+                    </div>
+                    <div class="lower-item">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="front-end-checkbox" name="front-end" value="0">
+                            <label for="front-end-checkbox">Front-end Projects</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="back-end-checkbox" name="back-end" value="1">
+                            <label for="back-end-checkbox">Back-end Projects</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="data-visualisation-checkbox" name="data-visualisation" value="2">
+                            <label for="data-visualisation-checkbox">Data Visualisation</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="challenges-checkbox" name="challenges" value="3">
+                            <label for="challenges-checkbox">Challenges</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="open-source-community-checkbox" name="open-source-community" value="4">
+                            <label for="open-source-community-checkbox">Open Source Community</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="gitter-help-rooms-checkbox" name="gitter-help-rooms" value="5">
+                            <label for="gitter-help-rooms-checkbox">Gitter help rooms</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="videos-checkbox" name="videos" value="6">
+                            <label for="videos-checkbox">Videos</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="city-meetups-checkbox" name="city-meetups-community" value="7">
+                            <label for="city-meetups-checkbox">City meetups</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="wiki-checkbox" name="wiki-community" value="8">
+                            <label for="wiki-checkbox">Wiki</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="forum-checkbox" name="forum" value="9">
+                            <label for="forum-checkbox">Forum</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="additional-courses-checkbox" name="additional-courses" value="10">
+                            <label for="additional-courses-checkbox">Additional Courses</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <div class="upper-item">
+                        <label for="comment-text">Any comments or suggestions?</label>
+                    </div>
+                    <div class="lower-item">
+                        <textarea id="comment text" cols="50" rows="4" name="comment" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="form-item-wrapper">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
