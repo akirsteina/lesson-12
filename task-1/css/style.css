@@ -1,0 +1,40 @@
+* {
+    color: #111;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0px 600px;
+}
+
+.paragraph {
+    background-color: rgb(228, 228, 228);
+    border: 2px solid rgb(197, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: text-top;
+    margin: 10px;
+    min-height: 200px;
+}
+
+.paragraph p {
+    position: relative;
+    top: -15px;
+}
+
+.paragraph-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-wrapper.second :nth-child(2) {
+    flex-basis: 350%;
+}
+
+.paragraph-wrapper.third :first-child {
+    flex-basis: 90%;
+}
+
+.paragraph-wrapper.fourth :first-child {
+    flex-basis: 350%;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>Good Vibes Form</h1>
+    </div>
+    <div class="container">
+        <form action="" method="post">
+            <div>
+                <h2>Tell us something positive that happened to you today!</h2>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <label for="name-input-field">Name: </label>
+                </div>
+                <div class="column right-column">
+                    <input type="text" id="name-input-field" placeholder="Enter your name" name="name">
+                </div>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <label for="email-input-field">Email: </label>
+                </div>
+                <div class="column right-column">
+                    <input type="text" id="email-input-field" placeholder="Enter your email" name="email">
+                </div>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <label for="scale-input-field">On a scale of 1-10, how good was it?</label>
+                </div>
+                <div class="column right-column">
+                    <input type="text" id="scale-input-field" placeholder="Enter a number between 1 and 10" name="scale">
+                </div>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <label for="place-select">Where did it happen?</label>
+                </div>
+                <div class="column right-column">
+                    <select id="place-select" name="place">
+                        <option value="">Select one...</option>
+                        <option value="1">At home</option>
+                        <option value="2">At work</option>
+                        <option value="3">Somewhere else</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row-wrapper radio-buttons">
+                <div class="column left-column">
+                    When did it happen?
+                </div>
+                <div class="column right-column">
+                    <div>
+                        <input type="radio" id="morning" name="time" value="mornin">
+                        <label for="morning">Morning</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="afternoon" name="time" value="noon">
+                        <label for="afternoon">Afternoon</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="evening" name="time" checked value="eve">
+                        <label for="evening">Evening</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <div>What emotions did you experience?</div>
+                    <div>(Select all that apply)</div>
+                </div>
+                <div class="column right-column">
+                    <div>
+                        <label for="excited-checkbox">Excited</label>
+                        <input type="checkbox" id="excited-checkbox" name="excited" value="1">
+                    </div>
+                    <div>
+                        <label for="humbled-checkbox">Humbled</label>
+                        <input type="checkbox" id="humbled-checkbox" name="humbled" value="1">
+                    </div>
+                    <div>
+                        <label for="elated-checkbox">Elated</label>
+                        <input type="checkbox" id="elated-checkbox" name="elated" value="1">
+                    </div>
+                    <div>
+                        <label for="loved-checkbox">Loved</label>
+                        <input type="checkbox" id="loved-checkbox" name="loved" value="1">
+                    </div>
+                    <div>
+                        <label for="enthusiastic-checkbox">Enthusiastic</label>
+                        <input type="checkbox" id="enthusiastic-checkbox" name="enthusiastic" value="1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-wrapper">
+                <div class="column left-column">
+                    <label for="comment-text">Please describe your positive experience!</label>
+                </div>
+                <div class="column right-column">
+                    <textarea id="comment text" cols="50" rows="5" name="comment" placeholder="Enter your experience here"></textarea>
+                </div>
+            </div>
+
+
+
+    </div>
+
+    <div class="btn-wrapper">
+        <button type="submit">Submit</button>
+
+    </div>
+
+    </form>
+    </div>
+</body>
+
+</html>

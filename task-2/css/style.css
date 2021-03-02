@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    background-color: rgb(223, 215, 215);
+    padding: 10px;
+    padding-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(84, 84, 214);
+    font-weight: 300;
+}
+
+h2 {
+    color: rgb(7, 83, 7);
+    font-weight: 300;
+    font-style: italic;
+}
+
+h3,
+h4 {
+    font-size: 15px;
+}
+
+.list-items li {
+    padding: 2px;
+}
+
+.unordered-list {
+    list-style: none;
+}
+
+.quote {
+    font-size: 20px;
+}
+
+.name-tag {
+    margin: 15px 0px;
+}
+
+.wikipedia-entry {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.wikipedia-entry a {
+    color: rgb(84, 84, 214);
+    font-style: italic;
+}
+
+.empty-div {
+    height: 20px;
+}
