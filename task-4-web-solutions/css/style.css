@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+header {
+    background-image: url("../images/background.jpg");
+    height: 60vh;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header-wrapper {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgb(241, 241, 241);
+}
+
+button {
+    color: rgb(241, 241, 241);
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(241, 241, 241);
+    padding: 15px 30px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.basic-info-container {
+    background-color: rgb(241, 241, 241);
+    color: rgb(51, 51, 51);
+    margin: 0px;
+    padding: 15px 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph-columns {
+    column-count: 2;
+    column-width: 150px;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-container {
+    background-color: rgb(51, 51, 51);
+}
+
+.menu {
+    display: flex;
+    padding: 30px 600px;
+    justify-content: space-evenly;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.menu-item-wrapper img {
+    max-width: 220px;
+}
+
+.menu-item-wrapper h3 {
+    padding-top: 15px;
+}
+
+.menu-item-wrapper p {
+    padding: 15px;
+}
+
+.menu-item-wrapper {
+    max-width: 220px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(51, 51, 51);
+}
+
+.advanced-info-wrapper {
+    background-color: rgb(241, 241, 241);
+    color: rgb(51, 51, 51);
+    margin: 0px;
+    padding: 15px 610px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.company-info-wrapper {
+    display: flex;
+}
+
+.company-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgb(1, 94, 138);
+    color: rgb(241, 241, 241);
+    padding: 30px;
+}
+
+.about-us {
+    color: rgb(241, 241, 241);
+    background-color: rgb(51, 51, 51);
+    padding: 0px 30px 30px 30px;
+}
+
+.bottom-wrapper {
+    display: flex;
+}
+
+.left-side,
+.right-side {
+    padding: 30px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: #111;
+    color: rgb(241, 241, 241);
+}
+
+.right-side a {
+    text-decoration: none;
+    color: rgb(1, 94, 138);
+}
